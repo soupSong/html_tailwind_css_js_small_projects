@@ -1,0 +1,92 @@
+body{
+    margin: 10px;
+    background-color: black;
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5a3181;
+    /* width: 100%; */
+}
+
+.header_section{
+    color: lightgray;
+    font-size: 30px;
+
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+
+.navbar_buttons{
+    background-color: #8e44ad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.navbar_buttons:hover{
+    background-color: #732d91;
+    cursor: pointer;
+}
+
+#all-conversion-sections{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#temperature, #weight, #distance{
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
+
+#temperature{
+    border-top: green 8px solid;
+    border-radius: 1mm;
+}
+#weight{
+    border-top: red 8px solid;
+    border-radius: 1mm;
+}
+#distance{
+    border-top: purple 8px solid;
+    border-radius: 1mm;
+}
+
+#tmp, #wgt, #dst{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.convert_button{
+    background-color: #34495e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.convert_button:hover{
+    background-color: #2c3e50;
+    cursor: pointer;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>add para js</title>
+
+  <script>
+    function addPara() {
+
+        var existingPara = document.getElementsByTagName("p")
+        console.log(existingPara.length);
+        
+
+        if(existingPara.length > 0){
+            alert("Para already exists")
+        }
+        else{
+            var newPara = document.createElement("p")
+            var newText = document.createTextNode("Hello World")
+
+            newPara.appendChild(newText)
+            document.body.appendChild(newPara)
+        }
+        
+
+
+    }
+  </script>
+</head>
+<body>
+
+    <button onclick="addPara()">Load Para</button>
+
+
+</body>
+</html>

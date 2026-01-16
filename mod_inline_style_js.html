@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>add para js</title>
+
+</head>
+<body>
+
+    <div id = "div1" style="background-color: blue; width: 100px; height: 100px;"></div>
+
+    <button onmouseover="changeColor()">Change Color</button>
+
+
+    <script>
+        function changeColor(){
+            var div1 = document.getElementById("div1")
+
+            div1.style.cssText = "background-color: red; width: 100px; height: 100px;"
+
+            console.log(div1.style.cssText);
+            
+        }
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header" class="flex flex-row bg-gray-300 items-center justify-between">
+
+        <div class="px-2 py-1 mx-2 my-1">
+            <h1>Shadab</h1>
+            <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-envelope"></i>
+                <p>shadab@gmail.com</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <p>+914258713658</p>
+            </div>
+            
+
+        </div>
+
+        <div class="flex flex-row gap-4 px-2 py-1 mx-2 my-1">
+
+            <button class="font-mono text-md hover:pb-2 antialiased hover:underline hover:font-bold hover:cursor-pointer">About me</button>
+            <button class="font-mono text-md hover:pb-2 antialiased hover:underline hover:font-bold hover:cursor-pointer">Skills</button>
+            <button class="font-mono text-md hover:pb-2 antialiased hover:underline hover:font-bold hover:cursor-pointer">Projects</button>
+            <button class="font-mono text-md hover:pb-2 antialiased hover:underline hover:font-bold hover:cursor-pointer">Recommendations</button>
+
+        </div>
+
+
+    </div>
+
+    <!-- About me section -->
+    <div class="flex flex-col justify-between md:flex-row items-center gap-10 px-8 py-16 max-w-6xl mx-auto">
+    
+    <!-- Image -->
+    <div class="w-64 shrink-0">
+        <img
+        src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
+        alt="Male developer illustration"
+        class="w-full h-auto"
+        />
+    </div>
+
+    <!-- Text Content -->
+    <div class="text-center md:text-left">
+        <h1 class="text-4xl font-bold text-purple-700 mb-4">
+        Hi, I’m John Doe 👋
+        </h1>
+
+        <p class="text-gray-600 leading-relaxed max-w-xl">
+        I’m a passionate frontend-focused developer who enjoys building clean,
+        responsive, and user-friendly web interfaces. I work primarily with
+        modern JavaScript, Tailwind CSS, and component-based architectures.
+        I love turning ideas into polished experiences and continuously
+        improving my skills through real-world projects.
+        </p>
+    </div>
+
+    </div>
+
+
+    <!-- Skills section -->
+
+    <div id="skills-section" class="px-2 py-1 mx-1 my-2 pb-4">
+        <h1 class="text-4xl font-bold text-purple-700 mb-4">Skills</h1>
+        <div id="skill-cards" class="pt-3 flex flex-wrap gap-4 justify-center items-center">
+            <!-- card 1 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/500px-HTML5_logo_and_wordmark.svg.png"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">HTML</p>
+                <p class="font-sans font-semibold">2 years of experience</p>
+             </div>
+            <!-- card 2 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">Javascript</p>
+                <p class="font-sans font-semibold">1.5 years of experience</p>
+             </div>
+            <!-- card 3 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://cdn.iconscout.com/icon/free/png-256/free-java-logo-icon-svg-download-png-2945017.png?f=webp"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">Java</p>
+                <p class="font-sans font-semibold">0.5 years of experience</p>
+             </div>
+            <!-- card 4 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">React</p>
+                <p class="font-sans font-semibold">1 year of experience</p>
+             </div>
+            <!-- card 5 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+                    alt="html 5 logo"
+                    class="w-30 h-20"
+                >
+                <p class="font-sans font-bold">Node.js</p>
+                <p class="font-sans font-semibold">1 year of experience</p>
+             </div>
+            <!-- card 6 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+                    alt="html 5 logo"
+                    class="w-15 h-20"
+                >
+                <p class="font-sans font-bold">CSS</p>
+                <p class="font-sans font-semibold">2 years of experience</p>
+             </div>
+            <!-- card 7 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">Python</p>
+                <p class="font-sans font-semibold">3 years of experience</p>
+             </div>
+            <!-- card 8 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_Apps_Script.svg/1024px-Google_Apps_Script.svg.png"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">Google Apps Script</p>
+                <p class="font-sans font-semibold">2.5 years of experience</p>
+             </div>
+            <!-- card 9 -->
+             <div id="htmlSkillCard" class="rounded-md w-50 h-50 bg-gray-300 flex flex-col justify-between items-center gap-3 p-2 hover:shadow-xl hover:scale-105 transition-transform hover:cursor-pointer">
+                <img
+                    src="https://cdn.worldvectorlogo.com/logos/google-bigquery-logo-1.svg"
+                    alt="html 5 logo"
+                    class="w-20 h-20"
+                >
+                <p class="font-sans font-bold">Google BigQuery</p>
+                <p class="font-sans font-semibold">2.5 years of experience</p>
+             </div>
+
+        </div>
+    </div>
+
+
+    <!-- Projects section-->
+    <div id="projects-section" class="px-2 py-1 mx-1 my-2 pb-4">
+        <h1 class="text-4xl font-bold text-purple-700 mb-4">Projects</h1>
+
+    <div class="px-10">
+    <h1 class="text-xl font-bold">AI Resume Screening Tool</h1>
+    <ul class="list-disc pl-6">
+        <li>
+        <p>
+            Designed and implemented an AI-powered resume screening tool that analyzes
+            candidate profiles and ranks them based on job requirements using NLP and
+            machine learning techniques.
+        </p>
+        </li>
+    </ul>
+    <hr class="my-4 border-gray-300">
+
+    <h1 class="text-xl font-bold">Real-Time Chat Application</h1>
+    <ul class="list-disc pl-6">
+        <li>
+        <p>
+            Built a real-time chat application with user authentication, message history,
+            and typing indicators using JavaScript, WebSockets, and a responsive UI.
+        </p>
+        </li>
+    </ul>
+    <hr class="my-4 border-gray-300">
+
+    <h1 class="text-xl font-bold">E-Learning Platform</h1>
+    <ul class="list-disc pl-6">
+        <li>
+        <p>
+            Developed a scalable e-learning platform featuring course management,
+            video content delivery, quizzes, and progress tracking for students and instructors.
+        </p>
+        </li>
+    </ul>
+    <hr class="my-4 border-gray-300">
+    </div>
+
+
+
+
+    </div>
+
+    <!-- Recommendations section -->
+    <div id="recommendations-section" class="px-2 py-1 mx-1 my-2 pb-4">
+    <h1 class="text-4xl font-bold text-purple-700 mb-4">Recommendations</h1>
+
+    <div id="recommendation-cards" class="flex gap-4 flex flex-wrap justify-center
+    ">
+
+        <!-- card1 -->
+            <div class="border w-100 rounded-md p-2">
+            <p class="italic">
+            <span class="text-purple-800 font-bold">“</span>
+            I highly recommend this candidate for their strong problem-solving skills and
+            ability to quickly adapt to new technologies. They consistently deliver clean,
+            reliable work and communicate clearly within the team. Their dedication and
+            attention to detail make them a valuable asset to any project.
+            <span class="text-purple-800 font-bold">”</span>
+            </p>
+
+            </div>
+
+            <div class="border w-100 rounded-md p-2">
+            <p class="italic">
+            <span class="text-purple-800 font-bold">“</span>
+            I highly recommend this candidate for their strong problem-solving skills and
+            ability to quickly adapt to new technologies. They consistently deliver clean,
+            reliable work and communicate clearly within the team. Their dedication and
+            attention to detail make them a valuable asset to any project.
+            <span class="text-purple-800 font-bold">”</span>
+            </p>
+
+            </div>
+
+            <div class="border w-100 rounded-md p-2">
+            <p class="italic">
+            <span class="text-purple-800 font-bold">“</span>
+            I highly recommend this candidate for their strong problem-solving skills and
+            ability to quickly adapt to new technologies. They consistently deliver clean,
+            reliable work and communicate clearly within the team. Their dedication and
+            attention to detail make them a valuable asset to any project.
+            <span class="text-purple-800 font-bold">”</span>
+            </p>
+
+            </div>
+
+    </div>
+
+    <div id="recommendations-input" class="relative py-10 flex flex-col justify-center items-center">
+        <h1 class="text-3xl font-bold mb-4">Leave a recommendation</h1>
+
+        <form id="myForm" action="/" method="POST">
+            <input type="text" id="name" placeholder="Enter your name (Optional)" class="border w-150 mb-5"><br>
+            <textarea
+            id="message"
+            placeholder="Type your message"
+            class="border w-150 h-50 resize-y"
+            ></textarea>
+            <br>
+            <button onclick="addRecommendation()" type="submit" id="submit-message-button" class="border rounded-md w-30 bg-gray-300 hover:scale-105 transition-transform hover:cursor-pointer hover:font-semibold">Submit</button>
+        </form>
+
+        
+
+        <dialog id="submitDialog" hidden class="border rounded-md p-4 m-auto flex flex-col justify-between items-center">
+            <i class="fa-solid fa-circle-check"></i>
+            <p>Thank you for your recommendation</p>
+            <button onclick="closeDialog()" id="confirmBtn" type="button" class="border rounded-md p-2 mt-2  hover:cursor-pointer hover:scale-105 transition-transform">Okay</button>
+        </dialog>
+
+        <i id="scrollTopBtn" class="fa-solid fa-circle-up absolute bottom-5 right-5 text-4xl cursor-pointer"></i>
+
+
+    </div>
+
+    </div>
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
